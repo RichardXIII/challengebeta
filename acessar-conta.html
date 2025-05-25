@@ -12,26 +12,27 @@
     <nav>
       <ul>
         <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="acessar-conta.html" aria-current="page">Acessar Conta</a></li>
         <li><a href="integrantes.html">Integrantes</a></li>
         <li><a href="faq.html">FAQ</a></li>
         <li><a href="contato.html">Contato</a></li>
-        <li><a href="acessar-conta.html" aria-current="page">Acessar Conta</a></li>
-        <li><a href="teleconsulta.html">Teleconsulta</a></li>
+        
+        
       </ul>
     </nav>
   </header>
 
   <main class="container">
-    <section aria-labelledby="login-title" class="card">
+    <section class="card">
       <h2 id="login-title">Acessar Conta</h2>
-      <form action="#" method="post" aria-describedby="login-desc">
+      <form>
         <p id="login-desc">Digite seu usuário e senha para acessar sua conta.</p>
         
         <label for="usuario">Usuário</label>
-        <input type="text" id="usuario" name="usuario" required autocomplete="username" />
+        <input type="text" id="usuario"/>
 
         <label for="senha">Senha</label>
-        <input type="password" id="senha" name="senha" required autocomplete="current-password" />
+        <input type="password" id="senha"/>
         <p>
         Não possui uma conta?
         <a href="registrar.html">Registrar</a>
@@ -45,5 +46,6 @@
   <footer>
     <p>© 2025 Sistema Hospitalar. Todos os direitos reservados.</p>
   </footer>
+<script src="js/scripts.js"></script>
 </body>
 </html>
