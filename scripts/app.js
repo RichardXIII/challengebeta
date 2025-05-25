@@ -6,5 +6,6 @@ document.querySelector('form').addEventListener('submit', function(event) {
     if (!usuario || !senha) {
       event.preventDefault();
       alert('Por favor, preencha todos os campos.');
+
     }
   });

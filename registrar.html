@@ -23,19 +23,19 @@
   </header>
 
   <main class="container">
-    <section aria-labelledby="login-title" class="card">
+    <section class="card">
       <h2 id="login-title">Registrar-se</h2>
-      <form action="#" method="post" aria-describedby="login-desc">
+      <form>
         <p id="login-desc">Preencha os dados para realizar o seu registro</p>
         
         <label for="usuario">Usuário</label>
-        <input type="text" id="usuario" name="usuario" required autocomplete="username" />
+        <input type="text" id="usuario"/>
 
         <label for="senha">Senha</label>
-        <input type="password" id="senha" name="senha" required autocomplete="current-password" />
+        <input type="password" id="senha"/>
 
         <label for="senha">Confirmar senha</label>
-        <input type="password" id="senha" name="senha" required autocomplete="current-password" />
+        <input type="password" id="confirmar-senha" />
         
 
         <button type="submit">Entrar</button>
@@ -46,5 +46,6 @@
   <footer>
     <p>© 2025 Sistema Hospitalar. Todos os direitos reservados.</p>
   </footer>
+  <script src="scripts/app.js"></script>
 </body>
 </html>
